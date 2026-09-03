@@ -1,0 +1,19 @@
+{
+  "name": "combo-miner",
+  "version": "0.1.0",
+  "description": "连锁矿工 · Combo Miner — 商业级 HTML5 休闲游戏 (Phaser 3 + Vite + TypeScript)",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser": "^3.80.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2",
+    "vite-plugin-pwa": "^0.20.5"
+  }
+}
